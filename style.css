@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --very-pale-cyan: hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/************************************/
+/*         TOP CONTAINER            */
+/************************************/
+
+.header-container {
+    background-image: url('images/bg-hero-mobile.svg');
+    background-repeat: no-repeat;
+    background-color: var(--very-pale-cyan);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    height: 9vh;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.header-logo-img {
+    width: 30vw;
+}
+
+.try-it-container {
+    background-color: white;
+    text-align: center;
+    border-radius: 30px;
+    width: 30vw;
+    height: 7vw;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.06), 0 6px 6px rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.try-btn {
+    text-decoration: none;
+    color: black;
+    font-size: 3.3vw;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+}
+
+.presentation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 35px 29px 10px 29px;
+}
+
+.header-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 6.5vw;
+    text-align: center;
+    line-height: 10vw;
+}
+
+.header-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4.3vw;
+    text-align: center;
+}
+
+.get-started-container {
+    background-color: var(--pink);
+    border-radius: 30px;
+    width: 65vw;
+    height: 12vw;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.06), 0 6px 6px rgba(0,0,0,0.12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5vh auto 6.5vh auto;
+    cursor: pointer;
+}
+
+.start-btn {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+    font-size: 3.7vw;
+}
+
+.mockup-img {
+    width: 100%;
+}
+
+
+
+
