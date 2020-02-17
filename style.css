@@ -17,6 +17,11 @@ body {
     padding: 0;
 }
 
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
 /************************************/
 /*         TOP CONTAINER            */
 /************************************/
@@ -120,6 +125,7 @@ body {
     flex-direction: column;
     margin: 8vw auto 0 auto;
     background-color: #fff;
+    margin-bottom: 25vw;
 }
 
 .flex-row-feature {
@@ -152,4 +158,114 @@ body {
     color: var(--grayish-blue);
     font-size: 4vw;
     line-height: 6vw;
+}
+
+/************************************/
+/*         CONTACT CONTAINER        */
+/************************************/
+
+.footer-container {
+    background-color: var(--very-dark-cyan);
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40vw;
+}
+
+.flex-row-contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-img {
+    margin-right: 5vw;
+    margin-left: 4vw;
+    width: 5vw;
+}
+
+.location {
+    width: 12vw;
+    align-self: center;
+    margin-top: -9vw;
+}
+
+.contact-info {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4vw;
+    margin-right: 12vw;
+}
+
+.footer-logo {
+    width: 55vw;
+    margin-bottom: 1vw;
+}
+
+.first-menu-container, .second-menu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 10vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.first-menu-container {
+    margin-top: 5vw;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4.2vw;
+}
+
+/************************************/
+/*     SOCIAL MEDIA CONTAINER       */
+/************************************/
+
+.social-media-container{
+    background: var(--very-dark-cyan);
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    color: white;
+    font-size: 7.1vw;
+    margin: 10vw 4vw 4vw 4vw;
+    cursor: pointer;
+}
+
+.copyright {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.6vw;
+    text-align: center;
+}
+
+/************************************/
+/*         FOOTER CONTAINER         */
+/************************************/
+
+footer {
+    background-color: var(--very-dark-cyan);
+    color: white;
+    text-align: center;
+    font-size: 3.5vw;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 8vw;
+}
+
+
+
+footer a {
+    text-decoration: none;
+    color: rgb(226, 220, 220);
 }
